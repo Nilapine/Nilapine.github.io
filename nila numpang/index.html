@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+        <script src="play.js"></script>
+    <title>CineLa</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">CineLa</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li><a class="menu-list-item active" href="#home">HOME</a></li>
+                    <li><a class="menu-list-item" href="#horror">HORROR</a></li>
+                    <li><a class="menu-list-item" href="#action">ACTION</a></li>
+                    <li><a class="menu-list-item" href="#romance">ROMANCE</a></li>
+                    <li><a class="menu-list-item" href="#comedy">COMEDY</a></li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="media/foto.jpg" alt="Nila">
+                <div class="profile-text-container">
+                    <span class="profile-text">Nila</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container" id="home">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+               
+                <video class="featured-content" controls>
+                    <source src="media/avatar.mp4" type="video/mp4">
+                    <source src="media/avatar.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                  </video>
+                <p class="featured-desc">“Avatar: The Way of Water” <br>begins to tell the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.</p>
+                <button class="featured-button"><a class="menu-list-item" href="big4.html">WATCH</a></button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/big4.jpeg" alt="">
+                            <span class="movie-list-item-title">The Big 4</span>
+                            <p class="movie-list-item-desc">Seorang detektif yang dikenal lurus menyelidiki kematian ayahnya dan mengikuti jejak hingga ke sebuah pulau tropis.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="big4t.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/bumimanusia.jpg" alt="">
+                            <span class="movie-list-item-title">Bumi Manusia</span>
+                            <p class="movie-list-item-desc">Ini adalah kisah dua anak manusia yang meramu cinta di atas pentas.
+                                Dia, pemuda pribumi, Jawa totok. Sementara Annelies, gadis Indo Belanda anak seorang Nyai.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/ngerisedap.jpeg" alt="">
+                            <span class="movie-list-item-title">Ngeri-Ngeri Sedap</span>
+                            <p class="movie-list-item-desc">Pak Domu dan Mak Domu merupakan orang tua dari empat orang anak: Sarma E. Purba; Domu, Gabe, dan Sahat Purba. Sarma tinggal bersama orangtuanya.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="nns.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/habibie.jpg" alt="">
+                            <span class="movie-list-item-title">Habibie Ainun 3</span>
+                            <p class="movie-list-item-desc">Habibie pergi ke kuburan Ainun untuk mengenang setahun kematian istrinya. Setelah berziarah, Habibie masih berduka sedang meratapi kematian istrinya.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="nns.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/pengabdi.jpg" alt="">
+                            <span class="movie-list-item-title">Pengabdi Setan</span>
+                            <p class="movie-list-item-desc">Setelah sakit aneh selama 3 tahun, Ibu akhirnya meninggal dunia. Bapak lalu memutuskan untuk kerja di luar kota meninggalkan anak-anak.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="nns.html">WATCH</a></button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container" id="horror">
+                <h1 class="movie-list-title">HORROR</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MEDIA/invitation.jpg" alt="">
+                            <span class="movie-list-item-title">The Invitation</span>
+                            <p class="movie-list-item-desc">Evie diundang oleh sepupunya untuk datang ke Inggris menghadiri pesta pernikahan. 
+                                Namun kebahagiaan tersebut berakhir dengan cepat ketika Evie menemukan rahasia</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="nns.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/ivanna.jpeg" alt="">
+                            <span class="movie-list-item-title">Ivanna</span>
+                            <p class="movie-list-item-desc">Semua akibat kemampuan Ambar merasakan yang tak terlihat, 
+                                yang didapatkan setelah mengalami gangguan penglihatan.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/conjuring.jpg" alt="">
+                            <span class="movie-list-item-title">The Conjuring</span>
+                            <p class="movie-list-item-desc">Keesokan paginya, Carolyn bangun dengan memar
+                                 misterius dan menemukan Sadie tergeletak mati di luar rumah</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/sinister.jpg" alt="">
+                            <span class="movie-list-item-title">Sinister</span>
+                            <p class="movie-list-item-desc">Ellison, seorang kriminal novelis mengalami kesulitan menemukan ide untuk buku terbarunya.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/kkn.jpg" alt="">
+                            <span class="movie-list-item-title">KKN di Desa Penari</span>
+                            <p class="movie-list-item-desc">Nur, Widya, Ayu, Bima, Anton, dan Wahyu melaksanakan 
+                                kuliah kerja nyata (KKN) di sebuah desa terpencil. </p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container" id="comedy">
+                <h1 class="movie-list-title">COMEDY</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/ctscomedi.jpg" alt="">
+                            <span class="movie-list-item-title">Cek Toko Sebelah</span>
+                            <p class="movie-list-item-desc">Etnis Tionghoa saat anak beranjak dewasa, 
+                                kuliah yang tinggi, mirisnya ujung-ujungnya bekerja di toko orang tuanya sendiri.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/OKB.jpeg" alt="">
+                            <span class="movie-list-item-title">Orang Kaya Baru</span>
+                            <p class="movie-list-item-desc">Keluarga yang mendadak menjadi kaya raya. Awalnya keluarga tersebut merupakan keluarga sederhana yang hidupnya pas-pasan namun tetap kompak.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/ggk.jpg" alt="">
+                            <span class="movie-list-item-title">Guru-Guru Gokil</span>
+                            <p class="movie-list-item-desc">Guru-Guru Gokil bercerita tentang Taat yang berambisi untuk sukses, tapi lebih sering menemui kegagalan dalam karier. </p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/rednotice.jpg" alt="">
+                            <span class="movie-list-item-title">Red Notice</span>
+                            <p class="movie-list-item-desc">John Hartley (Dwayne Johnson) berusaha dengan segala cara untuk menangkap pencuri barang-barang seni bernama Sarah Black (Gal Gadot). Suatu ketika, ia menyamar agar bisa menjebak Sarah.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/freeguy.jpg" alt="">
+                            <span class="movie-list-item-title">Free Guy</span>
+                            <p class="movie-list-item-desc">Seorang kasir bank yang menyadari ia hanyalah salah satu karakter latar belakang dalam sebuah permainan video terbuka, memutuskan untuk menjadi pahlawan dalam kisahnya sendiri</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container" id="action">
+                <h1 class="movie-list-title">ACTION</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/gundala.jpg" alt="">
+                            <span class="movie-list-item-title">Gundala</span>
+                            <p class="movie-list-item-desc">Sancaka (Muzakki Ramdhan) adalah putra seorang pekerja pabrik miskin yang berjuang untuk memenuhi kebutuhan hidup.
+                            </p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/therais.jpeg" alt="">
+                            <span class="movie-list-item-title">The Raid 2</span>
+                            <p class="movie-list-item-desc">Bejo, gangster muda ambisius membunuh kakaknya Rama, Andi. Rama kemudian bertemu Bunawar, 
+                                pemimpin unit kepolisian yang memburu polisi serta politikus korup</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/extraction.jpg" alt="">
+                            <span class="movie-list-item-title">Extraction</span>
+                            <p class="movie-list-item-desc">Extraction berkisah tentang Tyler Rake (Chris Hemsworth) seorang tentara bayaran 
+                                yang dikenal begitu profesional dalam menjalankan tiap misinya.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/ttbusan.webp" alt="">
+                            <span class="movie-list-item-title">Train to Busan</span>
+                            <p class="movie-list-item-desc">Awal cerita Train to Busan adalah ketika sebuah truk pembawa barang 
+                                diizinkan melewati sebuah daerah yang mengalami kebocoran.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/shooter.jpg" alt="">
+                            <span class="movie-list-item-title">Shooter</span>
+                            <p class="movie-list-item-desc">Shooter mengisahkan tentang seorang penembak jitu yang telah
+                                pensiun dari pekerjaannya, Bob Lee Swagger (Mark Wahlberg).</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                    </div> 
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container" id="romance">
+                <h1 class="movie-list-title">ROMANCE</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MEDIA/aadc.jpg" alt="">
+                            <span class="movie-list-item-title">AADC</span>
+                            <p class="movie-list-item-desc">Cinta (Dian Sastrowardoyo) sebagai seorang gadis yang cantik, pintar, dan periang. 
+                                Ia merupakan langganan juara lomba puisi di sekolahnya yang rutin diadakan tiap tahun.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MEDIA/ttm.jpg" alt="">
+                            <span class="movie-list-item-title">Teman Tapi Mesra</span>
+                            <p class="movie-list-item-desc">Belum puas menikmati momen sebagai pasangan baru, 
+                                Ayu tiba-tiba hamil. Kepribadiannya berubah total.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MEDIA/bskg.jpeg" alt="">
+                            <span class="movie-list-item-title">Balada Sepasang Kekasih Gila</span>
+                            <p class="movie-list-item-desc">Djarot (Denny Sumargo) kerap dimasukkan ruang isolasi di sebuah rumah sakit jiwa, 
+                                karena berlaku kasar, bahkan membunuh orang-orang yang membully-nya.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="MEDIA/sweet.jpg" alt="">
+                            <span class="movie-list-item-title">Sweet & Sour</span>
+                            <p class="movie-list-item-desc">Jang-hyuk (Jang Ki-yong) mengharapkan 
+                                kelancaran dalam dua bidang kehidupan; cinta dan pekerjaan.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                        
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="media/dilan.jpg" alt="">
+                            <span class="movie-list-item-title">Dilan</span>
+                            <p class="movie-list-item-desc">di sebuah SMA di Bandung. Itu adalah tahun 1990, saat Milea pindah dari Jakarta ke Bandung. 
+                                Perkenalan yang tidak biasa kemudian membawa Milea mulai mengenal keunikan Dilan lebih jauh.</p>
+                            <button class="movie-list-item-button"><a class="menu-list-item" href="bumimanusia.html">WATCH</a></button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="row">
+            <ul>
+                <li>View us :</li>
+                <li><a href="https://www.youtube.com/@nilafarihah5819" target="_new">YouTube</a></li>
+                <li><a href="https://www.instagram.com/nilafarihah/?next=%2F&hl=id" target="_new">Instagram</a></li>
+                <li><a href="https://twitter.com/ionotsuka" target="_new">Twitter</a></li>
+                <li><a href="https://id.pinterest.com/farihah0772/" target="_new">Pinterest</a></li>
+                <li><a href="https://rintiksedu.com/" target="_new">Website</a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+        CineLa Copyright © 2021 cinela - watch your film || Designed By: Nila Farihah 
+        </div>
+    </div>
+</footer>
+
+</html>
